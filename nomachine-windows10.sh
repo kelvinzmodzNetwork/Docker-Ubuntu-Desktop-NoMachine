@@ -2,7 +2,6 @@ wget -O ng.sh https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine/raw/ma
 chmod +x ng.sh
 ./ng.sh
 
-
 function goto
 {
     label=$1
@@ -43,4 +42,4 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*publ
 echo User: user
 echo Passwd: 123456
 echo "VM can't connect? Restart Cloud Shell then Re-run script."
-seq 1 43200 | while read i; do echo -en "\r Running .     $i s /43200 s";sleep 0.1;echo -en "\r Running ..    $i s /43200 s";sleep 0.1;echo -en "\r Running ...   $i s /43200 s";sleep 0.1;echo -en "\r Running ....  $i s /43200 s";sleep 0.1;echo -en "\r Running ..... $i s /43200 s";sleep 0.1;echo -en "\r Running     . $i s /43200 s";sleep 0.1;echo -en "\r Running  .... $i s /43200 s";sleep 0.1;echo -en "\r Running   ... $i s /43200 s";sleep 0.1;echo -en "\r Running    .. $i s /43200 s";sleep 0.1;echo -en "\r Running     . $i s /43200 s";sleep 0.1; done
+seq 1 99999 | while read i; do echo -en "\r Running .     $i s /99999 s";sleep 0.1;echo -en "\r Running ..    $i s /99999 s";sleep 0.1;echo -en "\r Running ...   $i s /99999 s";sleep 0.1;echo -en "\r Running ....  $i s /99999 s";sleep 0.1;echo -en "\r Running ..... $i s /99999 s";sleep 0.1;echo -en "\r Running     . $i s /99999 s";sleep 0.1;echo -en "\r Running  .... $i s /99999 s";sleep 0.1;echo -en "\r Running   ... $i s /99999 s";sleep 0.1;echo -en "\r Running    .. $i s /99999 s";sleep 0.1;echo -en "\r Running     . $i s /99999 s";sleep 0.1; done
